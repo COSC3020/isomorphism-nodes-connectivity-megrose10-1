@@ -10,10 +10,10 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-To prove that these two graphs, who are both completely connected and have the same amount of nodes, are isomorphic and will always be isomorphic, we must look at a couple things. First, mapping. When mapping these two graphs, you can pair any node with any other node. Since they all essentially connect to each other, it will not matter which node you map it to. Each node with be mapped to one node, and this will go for every node, hence the one-to-one. Since the structure is preserved in completely connected same node number graphs, these are isomorphic.
+To prove that these two graphs, who are both completely connected and have the same amount of nodes, are isomorphic and will always be isomorphic, we want to see if there is a one-to-one and onto fucntion. Since completely connected graphs are connected to every node in the graph, we can map any node from map 1 to a unique node in graph 2, this leads to us repeating this until we find they have the same structure. Since all nodes will be connected, a bijection does exist. With a function like f, we can translate these nodes from their current names, and we will have the same structue. To conclude, we, by the above description, can say any graphs that are completely connected and have the same amount of nodes must be isomorphic.
 
 
-I used the class slides and video on graphing. I also got help from the TA in lab and office hours.
+I used the class slides and video on graphing. I also got help from the TA in lab and office hours. I also spoke with you during office hours after class.
 
 I submitted this work Fall 2024
 
